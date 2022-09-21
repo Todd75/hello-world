@@ -40,7 +40,7 @@ p {
 
 .middle-section {
      background-color: yellow;
-     border: 8px solid red;
+     border: 8px solid black;
 }
 
 .middle-section h3 {
@@ -64,5 +64,11 @@ p {
     margin-left: 10px;
 }
 footer {
+    text-align: center;
+    border: 3px solid black;
     background-color:rgb(44, 250, 2)
+}
+
+body {
+    background-color:rgb(245, 10, 194);
 }
