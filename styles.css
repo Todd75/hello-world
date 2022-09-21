@@ -1,0 +1,43 @@
+header {
+    height: 100px;
+    background-color: aquamarine
+}
+
+h1 {
+    float: left;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+nav li {
+    display: inline-block;
+    width: 275px;
+    float: right;
+    margin-top: 45px;
+}
+
+#top-section {
+    border: 7px solid yellowgreen;
+    background: pink;
+}
+
+#top-section img {
+    max-width: 100%
+}
+
+.middle-section img {
+    max-width: 400px;
+}
+
+.middle-section {
+     display: inline-block;
+     background-color: yellow;
+     border: 10px solid red;
+}
+
+#bottom-section {
+    border: 12px solid grey;
+}
+
+  
+
