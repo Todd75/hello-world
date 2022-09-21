@@ -18,7 +18,7 @@ nav li {
 
 #top-section {
     border: 7px solid yellowgreen;
-    background: pink;
+    background: rgb(5, 116, 243);
 }
 
 #top-section img {
@@ -30,14 +30,22 @@ nav li {
 }
 
 .middle-section {
-     display: inline-block;
      background-color: yellow;
      border: 10px solid red;
 }
 
 #bottom-section {
     border: 12px solid grey;
+    background-color: pink;
 }
 
-  
-
+#bottom-section h3 {
+    font-size: 48px;
+} 
+#bottom-section img {
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
