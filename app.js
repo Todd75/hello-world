@@ -1,5 +1,6 @@
 let userName = prompt("What is your name?");
 console.log(userName);
+confirm("Did you say " + userName + "?");
 document.write("Hi there,  " + userName + " have a wonderful day and thanks for visiting.")
 
 let number = 3;
@@ -12,7 +13,7 @@ if (answer == number) {
    }   else if(answer == 1){
        alert("Did you scroll down the page? Please try again.");
    }   else if(answer > 3){
-       alert("Have you been drinking? You are seeing double right now please try again later.")
+       alert("Have you been drinking? You are not seeing straight right now please try again later.")
    }
 else {
     alert("That is incorrect we are looking for a number.");
